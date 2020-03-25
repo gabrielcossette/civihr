@@ -122,7 +122,7 @@ if [ -s "$civiRoot/$PATCH_FILE" ]; then
   applyPatch
 
   echo "Updating reference to SHA of last commit patched..."
-  updateLastCommitPatched "$patchesBranch"
+  # updateLastCommitPatched "$patchesBranch"
 
   echo "Patch applied"
 else
